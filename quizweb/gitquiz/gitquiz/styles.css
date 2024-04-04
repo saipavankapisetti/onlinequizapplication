@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #88ab8e;
+    color: #3a4d39;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .start-page {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 10px 2px #1b4242;
+    padding: 3rem;
+    transform: translate(-50%, -50%);
+  }
+  
+  .start-page p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #quiz {
+    text-align: left;
+    padding: 1rem;
+  }
+  
+  .quiz-button {
+    margin: 0.8rem;
+    background-color: #4f6f52;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.3rem;
+  }
+  
+  .quiz-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 30px;
+  }
+  
+  ul li {
+    background-color: #eee7da;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid rgb(158, 155, 155);
+    border-radius: 50px;
+    width: 25rem;
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  ul li:hover {
+    border-color: #1b4242;
+    box-shadow: 0 0 10px 2px #1b4242;
+  }
+  
+  .btn {
+    text-align: left;
+    padding: 1.4rem;
+  }
+  
+  button {
+    background-color: #4f6f52;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.3rem;
+  }
+  
+  button:hover {
+    color: rgb(27, 26, 26);
+    font-weight: bold;
+    transform: scale(1.05);
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  #timer {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  @media (max-width: 767px) {
+    .start-page {
+      padding: 2rem;
+    }
+  
+    .quiz-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .quiz-button {
+      margin-bottom: 10px;
+    }
+  
+    ul li {
+      width: auto;
+    }
+  }
+  
